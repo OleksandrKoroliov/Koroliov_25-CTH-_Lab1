@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(153, 153, 153);
+}
+.text_header {
+    width: 75%;
+    font-size: 30px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 204, 170);
+}
+.container_item {
+    width: 75%;
+    font-size: 30px;
+    text-align: center;
+}
+.container_description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.child_container_description {
+    width: 1170px;
+    height: auto;
+    background-color: rgb(255, 170, 170);
+}
+.title_description {
+    font-size: 30px;
+    text-align: center;
+}
+.description_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(255, 85, 153);
+}
+.description {
+    font-size: 30px;
+    text-align: center;
+}
+.portfolio {
+    margin: 2px auto 5px auto;
+    font-size: 30px;
+    text-align: center;
+}
+.portfolio_gallery {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo_portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 515px;
+    height: 225px;
+    background-color: rgb(128, 128, 128);
+}
+.text_photo {
+    font-size: 30px;
+}
+.gallery {
+    padding: 25px 50px 25px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(128, 128, 128);
+}
+.photo_gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 350px;
+    background-color: rgb(153, 85, 255);
+}
+.text_photo_gallery {
+    font-size: 30px;
+}
+.block_text {
+    display: flex;
+    justify-content: center;
+}
+.child_block_text {
+    width: 1170px;
+    height: auto;
+    background-color: rgb(255, 170, 170);
+}
+.title_text {
+    margin: 15px auto 20px auto;
+    font-size: 30px;
+    text-align: center;
+}
+.block_orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 20px 0px;
+    width: auto;
+    height: 300px;
+    background-color: rgb(249, 118, 72);
+}
+.block_text_orange {
+    font-size: 30px;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 77, 77);
+}
+.text_footer {
+    width: 85%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
